@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.notes{
+    margin: 25px;
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+}
+
+.notes .edit{
+    display: flex;
+    background-color: brown;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.notes .edit button{
+    border: none;
+    background-color: transparent;
+    color: black;
+}
